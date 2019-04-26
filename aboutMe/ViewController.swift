@@ -16,6 +16,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.nameLabel.text = nil
+        self.hobbiesLabel.text = nil
         // Do any additional setup after loading the view.
         
     }
